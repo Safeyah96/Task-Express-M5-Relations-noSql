@@ -1,4 +1,4 @@
-const Post = require('../../models/Post');
+const Post = require("../../models/Post");
 
 exports.fetchPost = async (postId, next) => {
   try {
